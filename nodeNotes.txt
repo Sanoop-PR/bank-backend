@@ -1,0 +1,73 @@
+        nodeJS : Runtime environment + JS library
+
+- create client-server Application
+- feature 
+    - Extremely fast
+    - Asynchronous and event driven
+    - Single threaded
+    - Highly scalable
+    - No Buffering
+    - Open source
+- Node js Parts
+    - Global Object
+        - eg: setTimeOut(), console.log()
+    - Modules : require('file')
+        - require('')
+        - path
+        - process : environment variable
+        - http
+        - https
+        - events
+        - crypto
+    - Userdefined : using module.exports for exporting and require for importing
+    - packages : npm i package-name
+        - package.json : npm init -y
+        - node_modules 
+        - package-lock.json
+-Node backend concepts
+    - CLIENT-server architecture
+        - server side 
+        - http
+    - API
+    - crud
+    - RESTful api ;http request , cache
+    - CORS : cross origin resource sharing
+- Express : framework of nodeJS
+    - features
+        - minimalist,fast
+    - packages
+        - express
+        - cors    // share different ports
+        - dotenv
+- Mongoose :elegant mongodb object modeling for node.js
+
+
+---------------------------------------------------------------------
+                        Bank Back-end
+        
+1. create a folder
+2. generate package.json
+3. create index.js file
+4. .env file
+5. install packages
+    - express
+    - cors
+    - dotenv
+    - <--nodemon install for auto compile-->
+6. create .gitignore file
+7. update package.json script with start command
+8. start creating express server in index.js file
+    - import dotenv
+    - import Express
+    - import cors
+    - create express server
+    - setup port number
+    - use cors , json parser in server app
+    - run the server app in specified ports
+9. create database and collection in mongodb atlas ,copy the connection string
+10. paste collection string in .env file password and database name
+11. define steps to connect node app with mongodb database
+    - create db folder , define db connection
+ 
+
+---------------------------------------------------------------------
